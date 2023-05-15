@@ -33,6 +33,24 @@ function generateMarkdown(data) {
 - [Tests](#tests)
 
   ## Installation
+
+  ${data.projectInstallation}
+
+  ## Usage
+
+  ${data.projectUsage}
+
+  ## License
+
+  ${data.projectLicense}
+
+  ## Contributing
+
+  ${data.projectContributing}
+
+  ## Tests
+
+  ${data.projectTests}
 `;
 }
 
