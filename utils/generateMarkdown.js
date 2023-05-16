@@ -32,6 +32,8 @@ function generateMarkdown(data) {
 
 - [Tests](#tests)
 
+- [Questions](#questions)
+
   ## Installation
 
   ${data.projectInstallation}
@@ -51,6 +53,12 @@ function generateMarkdown(data) {
   ## Tests
 
   ${data.projectTests}
+
+  ## Questions
+
+  ${data.projectUsername}
+
+  ${data.projectEmail}
 `;
 }
 

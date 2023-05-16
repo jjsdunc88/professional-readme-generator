@@ -1,8 +1,8 @@
-# d
+# readme generator
  
   ## Description
 
-  d
+  readme generator via command line prompt
 
   ## Table of Contents
 
@@ -17,13 +17,15 @@
 
 - [Tests](#tests)
 
+- [Questions](#questions)
+
   ## Installation
 
-  d
+  npm i
 
   ## Usage
 
-  d
+  idk
 
   ## License
 
@@ -31,8 +33,14 @@
 
   ## Contributing
 
-  d
+  gib me money
 
   ## Tests
 
-  d
+  npm run test
+
+  ## Questions
+
+  jjsdunc88
+
+  jjsduncan@gmail.com
