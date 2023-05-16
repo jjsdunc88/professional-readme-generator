@@ -56,9 +56,11 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  ${data.projectUsername}
+  ### Please see below for additional information about this project:
 
-  ${data.projectEmail}
+  [GitHub](https://github.com/${data.projectUsername})
+
+  [Email](mailto:${data.projectEmail})
 `;
 }
 
