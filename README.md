@@ -31,9 +31,8 @@
   ## Usage
 
   Answer the command line promps in the terminal to generate a custom README file.
+  
   appusagevideo.mp4
-
-
 
   ## License
 
