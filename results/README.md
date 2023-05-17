@@ -2,7 +2,7 @@
  
   ## Description
 
-  This project uses command line prompts to generate readme md files
+  This project generates a readme using command line prompts
 
 
 
@@ -30,20 +30,22 @@
 
   ## Usage
 
-  N/A
+  na
 
 
 
   ## License
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+  This application is covered under the MIT License. 
+
+  Please see link for additional information:
   (https://opensource.org/licenses/MIT)
 
 
 
   ## Contributing
 
-  N/A
+  na
 
 
 
