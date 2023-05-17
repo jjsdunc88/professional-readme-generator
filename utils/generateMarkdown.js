@@ -13,6 +13,8 @@ function renderLicenseBadge(license) {
     return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]'
   } else if (license === 'BSD 3') {
     return '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)]'
+  } else if (license === 'None') {
+    return 'None'
   } else {
     return "";
   }
@@ -49,15 +51,16 @@ function renderLicenseSection(license) { }
 
 function generateMarkdown(data) {
   console.log(data);
-  return `# ${data.projectTitle} 
+  return `# ${data.projectTitle} ${renderLicenseBadge(data.projectLicense)}
  
   ## Description
 
   ${data.projectDescription}
 
+
+
   ## Table of Contents
 
-  
 - [Installation](#installation)
 
 - [Usage](#usage)
@@ -70,13 +73,19 @@ function generateMarkdown(data) {
 
 - [Questions](#questions)
 
+
+
   ## Installation
 
   ${data.projectInstallation}
 
+
+
   ## Usage
 
   ${data.projectUsage}
+
+
 
   ## License
 
@@ -84,13 +93,18 @@ function generateMarkdown(data) {
   ${renderLicenseLink(data.projectLicense)}
 
 
+
   ## Contributing
 
   ${data.projectContributing}
 
+
+
   ## Tests
 
   ${data.projectTests}
+
+
 
   ## Questions
 
